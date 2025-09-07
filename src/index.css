@@ -1,13 +1,62 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Roboto', sans-serif;
+  background: linear-gradient(135deg, #0b0c10, #1f1c2c, #3a0ca3, #000000);
+  background-size: 400% 400%;
+  animation: gradientBG 15s ease infinite;
+  color: #f3f3ff;
+  min-height: 100vh;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@keyframes gradientBG {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+::placeholder {
+  color: #999;
+  font-style: italic;
+}
+
+h1 {
+  font-family: 'Creepster', cursive;
+  color: #ff2e63;
+  text-shadow: 
+    4px 4px 8px black, 
+    0 0 10px #ff0000, 
+    0 0 20px #ff2e63;
+  letter-spacing: 6px;
+  text-transform: uppercase;
+  font-size: 5rem;
+  margin-bottom: 20px;
+  transition: all 0.3s ease-in-out;
+  position: relative;
+}
+
+h1:hover {
+  animation: spookyGlow 3s infinite linear;
+}
+
+@keyframes spookyGlow {
+  0% {
+    text-shadow: 0 0 10px #ff0000, 0 0 20px #ff2e63, 0 0 30px #ff0000;
+    color: #ff2e63;
+  }
+  25% {
+    text-shadow: 0 0 10px #21e6c1, 0 0 20px #00ffcc, 0 0 30px #21e6c1;
+    color: #21e6c1;
+  }
+  50% {
+    text-shadow: 0 0 10px #f9f871, 0 0 20px #fddb3a, 0 0 30px #f9f871;
+    color: #f9f871;
+  }
+  75% {
+    text-shadow: 0 0 10px #9d00ff, 0 0 20px #bf00ff, 0 0 30px #9d00ff;
+    color: #bf00ff;
+  }
+  100% {
+    text-shadow: 0 0 10px #ff0000, 0 0 20px #ff2e63, 0 0 30px #ff0000;
+    color: #ff2e63;
+  }
 }
