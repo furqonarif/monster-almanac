@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/monster-almanac/static/css/main.3ca28b47.css",
+    "main.js": "/monster-almanac/static/js/main.2eea762c.js",
+    "static/js/453.96453769.chunk.js": "/monster-almanac/static/js/453.96453769.chunk.js",
+    "static/media/creepster-latin-400.woff": "/monster-almanac/static/media/creepster-latin-400.ac0de9742dc39cf7ef5c.woff",
+    "static/media/creepster-latin-400.woff2": "/monster-almanac/static/media/creepster-latin-400.15e3de6798883e6c1263.woff2",
+    "index.html": "/monster-almanac/index.html",
+    "main.3ca28b47.css.map": "/monster-almanac/static/css/main.3ca28b47.css.map",
+    "main.2eea762c.js.map": "/monster-almanac/static/js/main.2eea762c.js.map",
+    "453.96453769.chunk.js.map": "/monster-almanac/static/js/453.96453769.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3ca28b47.css",
+    "static/js/main.2eea762c.js"
+  ]
+}
